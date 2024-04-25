@@ -15,6 +15,12 @@ function saveAndTransfer() {
     var password = document.getElementsByName('password')[0].value;
     var confirmPassword = document.getElementsByName('confirm_password')[0].value;
 
+    var strongPasswordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[a-zA-Z]).{8,}$/;
+    if (!strongPasswordRegex.test(password)) {
+        alert("Password must contain at least 8 characters, including at least one lowercase letter, one uppercase letter, one numeric digit, and one special character.");
+        return false;
+    }
+
     if (password !== confirmPassword) {
         alert("Passwords do not match");
         return false;
@@ -22,9 +28,13 @@ function saveAndTransfer() {
 
     var studno = document.getElementsByName('txtSN')[0].value;
 
-    if (studno != "^\d+$"){
-        alert("Invalid student number")
+    var studnoRegex = /^\d+$/;
+    if (!studnoRegex.test(studno)){
+        alert("Invalid student number");
+        return false;
     }
+
+    alert("Your response has been fetched. Date: " + new Date().toLocaleDateString());
 
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
