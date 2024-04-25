@@ -52,7 +52,9 @@ function saveAndTransfer() {
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Full Name:</span>
-                    <p>${formData.txtName}</p>
+                    <div class="response">
+                        <p>${formData.txtName}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Password:</span>
