@@ -20,7 +20,11 @@ function saveAndTransfer() {
         return false;
     }
 
-    var studno = document.getElements
+    var studno = document.getElementsByName('txtSN')[0].value;
+
+    if (studno != "^\d+$"){
+        alert("Invalid student number")
+    }
 
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
