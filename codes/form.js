@@ -25,6 +25,7 @@ function saveAndTransfer() {
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
         txtName: document.getElementsByName('txtName')[0].value,
+        txtSN: document.getElementsByName('txtSN')[0].value,
         password: password, 
         confirm_password: confirmPassword, 
         SType: document.querySelector('input[name="SType"]:checked').value,
@@ -59,6 +60,12 @@ function saveAndTransfer() {
                     <span class="reg-details">Full Name:</span>
                     <div class="response">
                         <p>${formData.txtName}</p>
+                    </div>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Student Number:</span>
+                    <div class="response">
+                        <p>${formData.txtSN}</p>
                     </div>
                 </div>
                 <div class="reg-section">
