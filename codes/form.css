@@ -12,8 +12,11 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: rgb(119, 246, 228);
     background: radial-gradient(circle, rgba(119, 246, 228, 1) 0%, rgba(159, 201, 233, 1) 100%);
+    background: linear-gradient(25deg, #ffffff 40%, transparent 41%, transparent 59%, #ffffff 60%) ,linear-gradient(90deg, transparent 45%, #9ec5d2 45%, #9ec5d2 55%, transparent 55%, transparent 20%, #9ec5d2 20%, #9ec5d2 30%,transparent 30%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
 }
 
 .container {
@@ -22,7 +25,13 @@ body {
     background: #fff;
     padding: 25px 30px;
     border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 
+                0 0 40px rgba(0, 0, 0, 0.1), 
+                inset 0 0 20px rgba(255, 255, 255, 0.1), 
+                inset 0 0 20px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 
 .container .title {
     font-size: 25px;
@@ -52,6 +61,7 @@ form .student-info .input-box {
 .input-box span.details {
     margin-right: 50px; 
 }
+
 
 
 .student-info .input-box .details {

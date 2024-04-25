@@ -108,3 +108,15 @@ function saveAndTransfer() {
     `);
 }
 
+
+
+function getSelectedInterests() {
+    var interests = document.getElementsByName('Interest');
+    var selectedInterests = [];
+    for (var i = 0; i < interests.length; i++) {
+        if (interests[i].checked) {
+            selectedInterests.push(interests[i].value);
+        }
+    }
+    return selectedInterests.join(', ');
+}
