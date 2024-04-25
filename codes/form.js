@@ -48,7 +48,9 @@ function saveAndTransfer() {
                 <br>
                 <div class="reg-section">
                     <span class="reg-details">Username:</span>
-                    <p>${formData.txtUserName}</p>
+                    <div class="response">
+                        <p>${formData.txtUserName}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Full Name:</span>
@@ -58,31 +60,45 @@ function saveAndTransfer() {
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Password:</span>
-                    <p>${formData.password}</p>
+                    <div class="response">
+                        <p>${formData.password}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Student Type:</span>
-                    <p>${formData.SType}</p>
+                    <div class="response">
+                        <p>${formData.SType}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Gender:</span>
-                    <p>${formData.Gender}</p>
+                    <div class="response">
+                        <p>${formData.Gender}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Year:</span>
-                    <p>${formData.Year}</p>
+                    <div class="response">
+                        <p>${formData.Year}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Course:</span>
-                    <p>${formData.Course}</p>
+                    <div class="response">
+                        <p>${formData.Course}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Interests:</span>
-                    <p>${formData.Interest}</p>
+                    <div class="response">
+                        <p>${formData.Interest}</p>
+                    </div>
                 </div>
                 <div class="reg-section">
                     <span class="reg-details">Comment:</span>
-                    <p>${formData.comment}</p>
+                    <div class="response">
+                        <p>${formData.comment}</p>
+                    </div>
                 </div>
             </div>
             </div>
