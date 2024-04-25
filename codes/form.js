@@ -20,6 +20,8 @@ function saveAndTransfer() {
         return false;
     }
 
+    var studno = document.getElements
+
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
         txtName: document.getElementsByName('txtName')[0].value,

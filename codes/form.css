@@ -140,8 +140,10 @@ form .student-info .input-box {
     cursor: pointer;
     padding: 10px 0;
     background: radial-gradient(circle, rgba(119, 246, 228, 1) 0%, rgba(159, 201, 233, 1) 100%);
-    margin-top: 30px; 
+    margin-top: 30px;
+    background-color: #4CAF50;
 }
+
 
 .title-reg{
     font-size: 20px;
