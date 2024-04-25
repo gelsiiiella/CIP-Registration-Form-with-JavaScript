@@ -3,105 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>CIP Registration Form</title>
-
 </head>
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Commissioner', sans-serif;
-    }
-    body{
-        display:flex;
-        height: 100vh;
-        justify-content: center;
-        align-items:center;
-        background: rgb(119,246,228);
-        background: radial-gradient(circle, rgba(119,246,228,1) 0%, rgba(159,201,233,1) 100%);
-    }
-    .container{
-        max-width: 700px;
-        width: 100%;
-        background: #fff;
-        padding: 25px 30px;
-        border-radius: 5px;
-    }
-    .container .title{
-        font-size: 25px;
-        font-weight: 500;   
-    }
-    .container .title::before{ 
-        content: '';
-        position:absolute;
-        height: 30px;
-        background: rgba(119,246,228,1);
-    }
-    .container form .student-info{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    form .student-info .input-box{
-        margin-bottom:15px;
-        width: calc(100% /2 -20px);
-    }
-    .student-info .input-box .details{
-        display:block;
-        font-weight:500;
-        margin-bottom: 5px;
-    }
-    .student-info .input-box input{
-        height: 30px;
-        width: 100%;
-        outline: none;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        padding-left: 15px;
-        font-size:16px;
-        border-bottom-width: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .student-info .input-box input:focus,
-    .student-info .input-box input:valid {
-        border-color: rgb(119,246,228);
-    }
-
-    .submit_btn {
-        height:100%;
-        width:100%;
-        outline:none;
-        color:#fff;
-        border:none;
-        font-size:18px;
-        font-weight:500;
-        letter-spacing:1px;
-        cursor:pointer;
-        background: radial-gradient(circle, rgba(119,246,228,1) 0%, rgba(159,201,233,1) 100%);
-    }
-    .submit_btn input:hover {
-        background: radial-gradient(circle,rgba(159,201,233,1) 100%, rgba(119,246,228,1) 0%);
-    }
-
-    @media (max-width:584px) {
-        .container{
-            max-width: 100%;
-        }
-        form .student-info .input-box{
-            margin-bottom:15px;
-            width: 100%;
-        }
-        .container form .details{
-            max-height:300px;
-            overflow-y:scroll;
-        }
-    }
-
-</style>
 <body>
     <div class="container">
         <div class="title">Registration</div>
