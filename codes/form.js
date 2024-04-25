@@ -1,14 +1,3 @@
-function validatePassword() {
-    var password = document.getElementsByName('password')[0].value;
-    var confirmPassword = document.getElementsByName('confirm_password')[0].value;
-
-    if (password !== confirmPassword) {
-        alert("Passwords do not match");
-        return false;
-    }
-    return true;
-}
-
 function resetForm() {
     document.forms["FormName"].reset();
 }
@@ -22,6 +11,15 @@ document.forms["FormName"].addEventListener("submit", function(event) {
 });
 
 function saveAndTransfer() {
+    var password = document.getElementsByName('password')[0].value;
+    var confirmPassword = document.getElementsByName('confirm_password')[0].value;
+
+    if (password !== confirmPassword) {
+        alert("Passwords do not match");
+        return false;
+    }
+    return true;
+ }
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
         txtName: document.getElementsByName('txtName')[0].value,
@@ -63,7 +61,7 @@ function saveAndTransfer() {
         </body>
         </html>
     `);
-}
+
 
 function getSelectedInterests() {
     var interests = document.getElementsByName('Interest');
