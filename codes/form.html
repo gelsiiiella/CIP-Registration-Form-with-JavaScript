@@ -12,74 +12,77 @@
         <div class="title">Registration</div>
         <form action="#">
             <div class="student-info">
-                <div class="input-box">
-                    <span class="details" name="txtName" size="20" maxlength="30">Full Name</span>
-                    <input type="text" placeholder="Enter your fullname" required>
+                <div class="left-column">
+                    <div class="input-box">
+                        <span class="details" name="txtName" size="20" maxlength="30">Full Name</span>
+                        <input type="text" placeholder="Enter your fullname" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details" name="txtUserName" size="20" maxlength="20">Username</span>
+                        <input type="text" placeholder="Enter your username" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details" name="txtSN" size="20">Student Number</span>
+                        <input type="text" placeholder="Enter your student number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Student Type</span>
+                        <input type="radio" name="SType" value="Scholar"> Scholar
+                        <input type="radio" name="SType" value="Non Scholar"> Non Scholar
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Create Password</span>
+                        <input type="password" name="password">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="password" name="confirm_password">
+                    </div>
                 </div>
-                <div class="input-box">
-                    <span class="details" name="txtUserName" size="20" maxlength="20">Username</span>
-                    <input type="text" placeholder="Enter your username" required>
+                <div class="right-column">
+                    <div class="input-box">
+                        <span class="details">Year</span>
+                        <select name="Year">
+                            <option value="1st Year">1st Year</option>
+                            <option value="2nd Year">2nd Year</option>
+                            <option value="3rd Year">3rd Year</option>
+                            <option value="4th Year">4th Year</option>
+                            <option value="5th Year">5th Year</option>
+                            <option value="Irregular">Irregular</option>
+                       </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Course</span>
+                        <select name="Course">
+                            <option value="BSCS">BSCS</option>
+                            <option value="BSIT">BSIT</option>
+                            <option value="BSCpE">BSCpE</option>
+                            <option value="BSCE">BSCE</option>
+                            <option value="BSEE">BSEE</option>
+                            <option value="BSECE">BSECE</option>
+                       </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <input type="radio" name="Gender" value="Male"> Male
+                        <input type="radio" name="Gender" value="Female"> Female
+                        <input type="radio" name="Gender" value="Other"> Other
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Interest</span>
+                        <input type="checkbox" name="Interest" value="Foods"> Foods
+                        <input type="checkbox" name="Interest" value="Academics"> Academics
+                        <input type="checkbox" name="Interest" value="Sports"> Sports
+                        <input type="checkbox" name="Interest" value="Beauty and Aesthetics"> Beauty and Aesthetics
+                        <input type="checkbox" name="Interest" value="Games"> Games
+                        <input type="checkbox" name="Interest" value="Coding"> Coding
+                        <input type="checkbox" name="Interest" value="Music"> Music
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Comment Section</span>
+                        <textarea rows="5" cols="20" name="comment"></textarea>
+                    </div>
                 </div>
-                <div class="input-box">
-                    <span class="details"  name="txtSN" size="20">Student Number</span>
-                    <input type="text" placeholder="Enter your student number" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Year</span>
-                    <select name="Year">
-                        <option value="1st Year">1st Year</option>
-                        <option value="2nd Year">2nd Year</option>
-                        <option value="3rd Year">3rd Year</option>
-                        <option value="4th Year">4th Year</option>
-                        <option value="5th Year">5th Year</option>
-                        <option value="Irregular">Irregular</option>
-                   </select>
-                </div>
-                <div class="input-box">
-                    <span class="details">Course</span>
-                    <select name="Course">
-                        <option value="BSCS">BSCS</option>
-                        <option value="BSIT">BSIT</option>
-                        <option value="BSCpE">BSCpE</option>
-                        <option value="BSCE">BSCE</option>
-                        <option value="BSEE">BSEE</option>
-                        <option value="BSECE">BSECE</option>
-                   </select>
-                </div>
-                <div class="input-box">
-                    <span class="details">Student Type</span>
-                    <input type="radio" name="SType" value="Scholar"> Scholar
-                    <input type="radio" name="SType" value="Non Scholar"> Non Scholar
-                </div>
-                <div class="input-box">
-                    <span class="details">Create Password</span>
-                    <input type="password" name="password">
-                </div>
-                <div class="input-box">
-                    <span class="details">Confirm Password</span>
-                    <input type="password" name="confirm_password">
-                </div>
-                <div class="input-box">
-                    <span class="details">Gender</span>
-                    <input type="radio" name="Gender" value="Male"> Male
-                    <input type="radio" name="Gender" value="Female"> Female
-                    <input type="radio" name="Gender" value="Other"> Other
-                </div>
-                <div class="input-box">
-                    <span class="details">Interest</span>
-                    <input type="checkbox" name="Interest" value="Foods"> Foods
-                    <input type="checkbox" name="Interest" value="Academics"> Academics
-                    <input type="checkbox" name="Interest" value="Sports"> Sports
-                    <input type="checkbox" name="Interest" value="Beauty and Aesthetics"> Beauty and Aesthetics
-                    <input type="checkbox" name="Interest" value="Games"> Games
-                    <input type="checkbox" name="Interest" value="Coding"> Coding
-                    <input type="checkbox" name="Interest" value="Music"> Music
-                </div>
-                <div class="input-box">
-                    <span class="details">Comment Section</span>
-                    <textarea rows="5" cols="20" name="comment"></textarea>
-                </div>
-                
                 <button type="submit" class="submit_btn">Register</button>
                 <button type="reset" id="reset">Reset Input</button>
             </div>
