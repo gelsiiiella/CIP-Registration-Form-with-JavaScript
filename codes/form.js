@@ -120,7 +120,7 @@ function saveAndTransfer() {
                     </div>
                 </div>
                 <br>
-                <p style="text-align: center;">&copy;All right reserved 2024 by Angela Samboa</p>
+                <p style="text-align: center;">&copy;Angela Samboa. All right reserved 2024</p>
             </div>
             </div>
         </body>
