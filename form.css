@@ -214,10 +214,9 @@ form .student-info .input-box {
 }
 
 .container-reg{
-    background-color: rgba(159, 201, 233, 1);
     max-width: 700px;
     width: 100%;
-    background: #fff;
+    background: rgba(159, 201, 233, 1);
     padding: 25px 30px;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 
