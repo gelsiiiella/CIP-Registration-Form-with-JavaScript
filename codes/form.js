@@ -1,5 +1,6 @@
 function resetForm() {
     document.forms["FormName"].reset();
+    alert("Your form has been reset.")
 }
 
 document.getElementById("reset").addEventListener("click", resetForm);
