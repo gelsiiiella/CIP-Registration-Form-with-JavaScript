@@ -23,10 +23,11 @@ function saveAndTransfer() {
     var studno = document.getElementsByName('txtSN')[0].value;
 
     var studnoRegex = /^\d+$/;
-    if (!studnoRegex.test(studno)){
+    if (!studnoRegex.test(studno) || parseInt(studno) >= 13){
         alert("Invalid student number.");
         return false;
     }
+
 
     alert("Your response has been fetched. Date: " + new Date().toLocaleDateString());
 
