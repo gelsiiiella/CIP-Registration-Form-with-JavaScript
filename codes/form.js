@@ -119,6 +119,8 @@ function saveAndTransfer() {
                         <p>${formData.comment}</p>
                     </div>
                 </div>
+                <br>
+                <p style="text-align: center;">&copy;All right reserved 2024 by Angela Samboa</p>
             </div>
             </div>
         </body>
