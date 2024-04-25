@@ -29,7 +29,7 @@ function saveAndTransfer() {
     }
 
 
-    alert("Your response has been fetched. Date: " + new Date().toLocaleDateString());
+    alert("Thank you for registering! Your response has been fetched. Date: " + new Date().toLocaleDateString());
 
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
