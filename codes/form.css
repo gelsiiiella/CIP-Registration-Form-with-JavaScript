@@ -121,22 +121,40 @@ form .student-info .input-box {
     margin-top: 30px; 
 }
 
+.title-reg{
+    font-size: 20px;
+}
+
 
 .reg-details {
     float: left;
     font-weight: bold;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 14px;
 
 }
 
-.response{
+.response {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: #ccc;
+    background-color: #f0f0f0;
     margin-left: 150px;
+    animation: fadeIn 0.5s ease-in-out;
+    transition: background-color 0.3s; 
+}
 
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+.response:hover {
+    background-color: #ddd; 
 }
 
 .reg-details,
@@ -165,6 +183,7 @@ form .student-info .input-box {
     display: block; 
     text-align: center; 
 }
+
 
 
 

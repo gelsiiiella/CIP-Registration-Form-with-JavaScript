@@ -40,11 +40,12 @@ function saveAndTransfer() {
         <html>
         <head>
             <title>Registration Details</title>
+            <link rel="icon" type="image/png" href="assets/cip_registrationForm.png">
             <link rel="stylesheet" href="form.css">
         </head>
         <body>
             <div class="container">
-                <div class="title">Registration Details</div>
+                <div class="title-reg">Registration Details</div>
                 <br>
                 <div class="reg-section">
                     <span class="reg-details">Username:</span>
