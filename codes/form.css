@@ -230,8 +230,18 @@ form .student-info .input-box {
         width: 100%;
     }
 
-    .container form .details {
-        max-height: 300px;
-        overflow-y: scroll;
+    .interest-list {
+        width: 100%;
+    }
+
+    .year-selection select,
+    .course-selection select {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .input-box textarea {
+        width: 100%;
     }
 }
+
