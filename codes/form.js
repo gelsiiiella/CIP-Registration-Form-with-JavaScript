@@ -18,13 +18,12 @@ function saveAndTransfer() {
         alert("Passwords do not match");
         return false;
     }
-    return true;
- }
+
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
         txtName: document.getElementsByName('txtName')[0].value,
-        password: document.getElementsByName('password')[0].value,
-        confirm_password: document.getElementsByName('confirm_password')[0].value,
+        password: password, // Use the password variable defined earlier
+        confirm_password: confirmPassword, // Use the confirmPassword variable defined earlier
         SType: document.querySelector('input[name="SType"]:checked').value,
         Gender: document.querySelector('input[name="Gender"]:checked').value,
         Year: document.getElementsByName('Year')[0].value,
@@ -61,6 +60,8 @@ function saveAndTransfer() {
         </body>
         </html>
     `);
+}
+
 
 
 function getSelectedInterests() {
