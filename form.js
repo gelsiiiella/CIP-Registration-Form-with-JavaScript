@@ -56,7 +56,7 @@ function saveAndTransfer() {
             <link rel="stylesheet" href="form.css">
         </head>
         <body>
-            <div class="container">
+            <div class="container-reg">
                 <div class="title-reg">Registration Details</div>
                 <br><br>
                 <div class="reg-section">

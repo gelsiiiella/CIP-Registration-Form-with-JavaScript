@@ -213,7 +213,10 @@ form .student-info .input-box {
     padding: 10px;
 }
 
+.container-reg{
+    background-color: rgba(159, 201, 233, 1);
 
+}
 .submit_btn:hover,
 #reset:hover {
     background: radial-gradient(circle, rgba(159, 201, 233, 1) 100%, rgba(119, 246, 228, 1) 0%);
