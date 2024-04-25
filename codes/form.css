@@ -184,6 +184,11 @@ form .student-info .input-box {
     text-align: center; 
 }
 
+.input-box textarea {
+    height: 300px; 
+    padding: 10px;
+}
+
 
 
 
