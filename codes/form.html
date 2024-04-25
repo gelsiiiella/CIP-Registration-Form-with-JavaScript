@@ -31,7 +31,7 @@
                 </div>
                 <div class="input-box">
                     <span class="details">Confirm Password</span>
-                    <input type="password" name="confirm_password">
+                    <input type="password" name="confirm_password" onblur="validatePassword()">
                 </div>
                 <div class="input-box">
                     <span class="details">Student Type</span>
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="submit_btn" onclick="validatePassword()">Register</button>
+            <button type="submit" class="submit_btn" onclick="saveAndTransfer()">Register</button>
             <button type="reset" id="reset">Reset Input</button>
             
         </form>

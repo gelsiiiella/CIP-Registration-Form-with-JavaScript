@@ -7,7 +7,6 @@ function validatePassword() {
         return false;
     }
     return true;
-    document.write(`<link rel="stylesheet" type="text/css" href="form.css">`);
 }
 function resetForm() {
     document.forms["FormName"].reset();
@@ -21,3 +20,33 @@ document.forms["FormName"].addEventListener("submit", function(event) {
         event.preventDefault(); 
     }
 });
+
+function saveAndTransfer() {
+    var formData = {
+        txtUserName: document.getElementsByName('txtUserName')[0].value,
+        txtName: document.getElementsByName('txtName')[0].value,
+    };
+
+    var serializedFormData = JSON.stringify(formData);
+
+    var newWindow = window.open();
+    newWindow.document.write(`
+        <html>
+        <head>
+            <title>Registration Details</title>
+            <link rel="stylesheet" href="form.css">
+        </head>
+        <body>
+            <div class="container">
+                <div class="title">Registration Details</div>
+                <br>
+                <div class="registration-info">
+                    <p><strong>Username:</strong> ${formData.txtUserName}</p>
+                    <p><strong>Full Name:</strong> ${formData.txtName}</p>
+                    <!-- Add other form fields here -->
+                </div>
+            </div>
+        </body>
+        </html>
+    `);
+}
