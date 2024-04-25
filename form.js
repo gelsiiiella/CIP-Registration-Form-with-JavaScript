@@ -55,7 +55,7 @@ function saveAndTransfer() {
             <link rel="icon" type="image/png" href="assets/cip_registrationForm.png">
             <link rel="stylesheet" href="form.css">
         </head>
-        <body>
+        <body id="results">
             <div class="container-reg">
                 <div class="title-reg">Registration Details</div>
                 <br><br>

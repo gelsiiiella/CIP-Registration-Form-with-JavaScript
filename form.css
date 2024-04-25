@@ -19,6 +19,23 @@ body {
         opacity: 1
 }
 
+.results body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(119, 246, 228, 1) 0%, rgba(159, 201, 233, 1) 100%);
+    background: linear-gradient(25deg, #9ec5d2 40%, transparent 41%, transparent 59%, #9ec5d2 60%) ,linear-gradient(90deg, transparent 45%, #ffffff 45%, #ffffff 55%, transparent 55%, transparent 20%, #ffffff 20%, #ffffff 30%,transparent 30%);
+    background-size: 3em 3em;
+    background-color: #9ec5d2;
+    opacity: 1;
+}
+
+.results .dot {
+    background-color: #ffffff;
+}
+
+
 .container {
     max-width: 700px;
     width: 100%;
@@ -216,7 +233,7 @@ form .student-info .input-box {
 .container-reg{
     max-width: 700px;
     width: 100%;
-    background: rgba(159, 201, 233, 1);
+    background: #fff;
     padding: 25px 30px;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 
