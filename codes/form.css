@@ -89,11 +89,11 @@ form .student-info .input-box {
 
 #reset {
     height: auto;
-    width: 50%;
+    width: 20%;
     outline: none;
     color: #fff;
     border: none;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
@@ -102,6 +102,7 @@ form .student-info .input-box {
     margin-top: 10px;
     margin-left: auto; 
     margin-right: auto;
+    border-radius: 30px;
 }
 
 .submit_btn:hover,
