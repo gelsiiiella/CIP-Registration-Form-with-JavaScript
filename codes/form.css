@@ -73,8 +73,7 @@ form .student-info .input-box {
     border-color: rgb(119, 246, 228);
 }
 
-.submit_btn,
-#reset {
+.submit_btn {
     height: auto;
     width: 100%;
     outline: none;
@@ -86,6 +85,23 @@ form .student-info .input-box {
     cursor: pointer;
     padding: 10px 0;
     background: radial-gradient(circle, rgba(119, 246, 228, 1) 0%, rgba(159, 201, 233, 1) 100%);
+}
+
+#reset {
+    height: auto;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px 0;
+    background: rgba(159, 201, 233, 1);
+    margin-top: 10px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .submit_btn:hover,
