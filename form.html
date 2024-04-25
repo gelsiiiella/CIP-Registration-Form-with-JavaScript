@@ -71,6 +71,36 @@
         border-color: rgb(119,246,228);
     }
 
+    .submit_btn {
+        height:100%;
+        width:100%;
+        outline:none;
+        color:#fff;
+        border:none;
+        font-size:18px;
+        font-weight:500;
+        letter-spacing:1px;
+        cursor:pointer;
+        background: radial-gradient(circle, rgba(119,246,228,1) 0%, rgba(159,201,233,1) 100%);
+    }
+    .submit_btn input:hover {
+        background: radial-gradient(circle,rgba(159,201,233,1) 100%, rgba(119,246,228,1) 0%);
+    }
+
+    @media (max-width:584px) {
+        .container{
+            max-width: 100%;
+        }
+        form .student-info .input-box{
+            margin-bottom:15px;
+            width: 100%;
+        }
+        .container form .details{
+            max-height:300px;
+            overflow-y:scroll;
+        }
+    }
+
 </style>
 <body>
     <div class="container">
@@ -123,7 +153,8 @@
                         <input type="checkbox" name="Games">Coding<br>
                         <input type="checkbox" name="Games">Music<br>
                 </div>
-                <button value="Register" name="submit_btn">Register</button>
+    
+                <input button id="submit_btn">Register</button>
 
 
                 <button id="reset">Reset Input </button>
