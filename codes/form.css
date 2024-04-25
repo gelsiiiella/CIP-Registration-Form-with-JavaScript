@@ -53,6 +53,10 @@ form .student-info .input-box {
     margin-bottom: 5px;
 }
 
+.input-box input[type="radio"] {
+    margin-right: 4px;
+}
+
 .student-info .input-box input[type="text"],
 .student-info .input-box input[type="password"],
 .student-info .input-box select,
@@ -114,26 +118,26 @@ form .student-info .input-box {
     cursor: pointer;
     padding: 10px 0;
     background: radial-gradient(circle, rgba(119, 246, 228, 1) 0%, rgba(159, 201, 233, 1) 100%);
-    margin: top 50px;
+    margin-top: 30px; 
 }
 
 #reset {
     height: auto;
     width: 15%;
     outline: none;
-    color: #fff;
+    color: #000;
     border: none;
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
     padding: 10px 0;
-    background: rgba(159, 201, 233, 1);
     margin: 10px auto; 
     border-radius: 30px;
     display: block; 
     text-align: center; 
 }
+
 
 
 .submit_btn:hover,
