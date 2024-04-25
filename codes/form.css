@@ -47,6 +47,14 @@ form .student-info .input-box {
     width: calc(50% - 20px);
 }
 
+
+.input-box input[type="radio"],
+.input-box span.details {
+    margin-right: 50px; 
+    align-items: center; 
+}
+
+
 .student-info .input-box .details {
     display: block;
     font-weight: 500;
@@ -74,11 +82,13 @@ form .student-info .input-box {
 
 #year-course-container {
     display: flex;
+    justify-content: center;
 }
 
-.year-selection,
-.course-selection {
-    margin-right: 10px; 
+.year-selection select,
+.course-selection select {
+    margin-right: 100px;
+    width:70px; 
 }
 
 
@@ -88,17 +98,20 @@ form .student-info .input-box {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 60%; 
+    width: 60%;
+    justify-content: center; 
 }
 
 .interest-list li {
-    width: 50%; 
+    width: 50%;
+    margin-bottom: 7px;
 }
 
 .interest-list label {
     display: inline-block;
-    width: 100%; 
+    width: 100%;
 }
+
 
 
 .student-info .input-box input:focus,
