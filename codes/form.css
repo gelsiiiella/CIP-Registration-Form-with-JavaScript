@@ -76,8 +76,7 @@ form .student-info .input-box {
 
 .student-info .input-box input[type="text"],
 .student-info .input-box input[type="password"],
-.student-info .input-box select,
-.student-info .input-box textarea {
+.student-info .input-box select{
     height: 30px;
     width: 100%;
     outline: none;
@@ -209,7 +208,8 @@ form .student-info .input-box {
 }
 
 .input-box textarea {
-    height: 300px; 
+    height: 100px; 
+    width: 300px;
     padding: 10px;
 }
 
