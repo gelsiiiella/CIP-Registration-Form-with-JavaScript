@@ -121,6 +121,14 @@ form .student-info .input-box {
     margin-top: 30px; 
 }
 
+.reg-section{
+    background-color: #ccc;
+    padding: 10px 0;
+    margin: 10px auto; 
+    border-radius: 10px;
+
+}
+
 #reset {
     height: auto;
     width: 15%;
