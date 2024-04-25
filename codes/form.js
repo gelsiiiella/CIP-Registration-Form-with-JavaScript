@@ -23,7 +23,7 @@ function saveAndTransfer() {
     var studno = document.getElementsByName('txtSN')[0].value;
 
     var studnoRegex = /^\d+$/;
-    if (!studnoRegex.test(studno) || parseInt(studno) >= 13){
+    if (!studnoRegex.test(studno)){
         alert("Invalid student number.");
         return false;
     }
@@ -114,7 +114,7 @@ function saveAndTransfer() {
                     </div>
                 </div>
                 <div class="reg-section">
-                    <span class="reg-details">Comment:</span>
+                    <span class="reg-details">Insight:</span>
                     <div class="response">
                         <p>${formData.comment}</p>
                     </div>
