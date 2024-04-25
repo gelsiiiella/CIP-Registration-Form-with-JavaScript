@@ -43,7 +43,16 @@ function saveAndTransfer() {
                 <div class="registration-info">
                     <p><strong>Username:</strong> ${formData.txtUserName}</p>
                     <p><strong>Full Name:</strong> ${formData.txtName}</p>
-                    <!-- Add other form fields here -->
+                    <p><strong>Password:</strong> ${formData.password}</p>
+                    <p><strong>Student Type:</strong> ${formData.SType}</p>
+                    <p><strong>Gender:</strong> ${formData.Gender}</p>
+                    <p><strong>Year:</strong> ${formData.Year}</p>
+                    <p><strong>Year:</strong> ${formData.Year}</p>
+                    <p><strong>Course:</strong> ${formData.Course}</p>
+                    <p><strong>Interests:</strong> ${formData.Interest}</p>
+                    <p><strong>Comment:</strong> ${formData.comment}</p>
+
+                    
                 </div>
             </div>
         </body>
