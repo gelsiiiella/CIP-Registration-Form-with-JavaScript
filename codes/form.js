@@ -46,7 +46,7 @@ function saveAndTransfer() {
         <body>
             <div class="container">
                 <div class="title-reg">Registration Details</div>
-                <br>
+                <br><br>
                 <div class="reg-section">
                     <span class="reg-details">Username:</span>
                     <div class="response">
@@ -108,15 +108,3 @@ function saveAndTransfer() {
     `);
 }
 
-
-
-function getSelectedInterests() {
-    var interests = document.getElementsByName('Interest');
-    var selectedInterests = [];
-    for (var i = 0; i < interests.length; i++) {
-        if (interests[i].checked) {
-            selectedInterests.push(interests[i].value);
-        }
-    }
-    return selectedInterests.join(', ');
-}
