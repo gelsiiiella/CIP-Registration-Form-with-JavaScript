@@ -15,12 +15,6 @@ function saveAndTransfer() {
     var password = document.getElementsByName('password')[0].value;
     var confirmPassword = document.getElementsByName('confirm_password')[0].value;
 
-    var strongPasswordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[a-zA-Z]).{8,}$/;
-    if (!strongPasswordRegex.test(password)) {
-        alert("Password must contain at least 8 characters, including at least one lowercase letter, one uppercase letter, one numeric digit, and one special character.");
-        return false;
-    }
-
     if (password !== confirmPassword) {
         alert("Passwords do not match");
         return false;
