@@ -22,8 +22,8 @@ function saveAndTransfer() {
     var formData = {
         txtUserName: document.getElementsByName('txtUserName')[0].value,
         txtName: document.getElementsByName('txtName')[0].value,
-        password: password, // Use the password variable defined earlier
-        confirm_password: confirmPassword, // Use the confirmPassword variable defined earlier
+        password: password, 
+        confirm_password: confirmPassword, 
         SType: document.querySelector('input[name="SType"]:checked').value,
         Gender: document.querySelector('input[name="Gender"]:checked').value,
         Year: document.getElementsByName('Year')[0].value,
@@ -46,15 +46,34 @@ function saveAndTransfer() {
                 <div class="title">Registration Details</div>
                 <br>
                 <div class="registration-info">
-                    <p><strong>Username:</strong> ${formData.txtUserName}</p>
-                    <p><strong>Full Name:</strong> ${formData.txtName}</p>
-                    <p><strong>Password:</strong> ${formData.password}</p>
-                    <p><strong>Student Type:</strong> ${formData.SType}</p>
-                    <p><strong>Gender:</strong> ${formData.Gender}</p>
-                    <p><strong>Year:</strong> ${formData.Year}</p>
-                    <p><strong>Course:</strong> ${formData.Course}</p>
-                    <p><strong>Interests:</strong> ${formData.Interest}</p>
-                    <p><strong>Comment:</strong> ${formData.comment}</p>
+                    <div class="reg-section">
+                        <p><strong>Username:</strong> ${formData.txtUserName}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Full Name:</strong> ${formData.txtName}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Password:</strong> ${formData.password}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Student Type:</strong> ${formData.SType}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Gender:</strong> ${formData.Gender}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Year:</strong> ${formData.Year}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Course:</strong> ${formData.Course}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Interests:</strong> ${formData.Interest}</p>
+                    </div>
+                    <div class="reg-section">
+                        <p><strong>Comment:</strong> ${formData.comment}</p>
+                    </div>
+                    
                 </div>
             </div>
         </body>
