@@ -45,36 +45,43 @@ function saveAndTransfer() {
             <div class="container">
                 <div class="title">Registration Details</div>
                 <br>
-                <div class="registration-info">
-                    <div class="reg-section">
-                        <p><strong>Username:</strong> ${formData.txtUserName}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Full Name:</strong> ${formData.txtName}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Password:</strong> ${formData.password}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Student Type:</strong> ${formData.SType}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Gender:</strong> ${formData.Gender}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Year:</strong> ${formData.Year}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Course:</strong> ${formData.Course}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Interests:</strong> ${formData.Interest}</p>
-                    </div>
-                    <div class="reg-section">
-                        <p><strong>Comment:</strong> ${formData.comment}</p>
-                    </div>
-                    
+                <div class="reg-section">
+                    <span class="reg-details">Username:</span>
+                    <p>${formData.txtUserName}</p>
                 </div>
+                <div class="reg-section">
+                    <span class="reg-details">Full Name:</span>
+                    <p>${formData.txtName}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Password:</span>
+                    <p>${formData.password}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Student Type:</span>
+                    <p>${formData.SType}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Gender:</span>
+                    <p>${formData.Gender}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Year:</span>
+                    <p>${formData.Year}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Course:</span>
+                    <p>${formData.Course}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Interests:</span>
+                    <p>${formData.Interest}</p>
+                </div>
+                <div class="reg-section">
+                    <span class="reg-details">Comment:</span>
+                    <p>${formData.comment}</p>
+                </div>
+            </div>
             </div>
         </body>
         </html>
