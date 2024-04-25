@@ -24,7 +24,7 @@ function saveAndTransfer() {
 
     var studnoRegex = /^\d+$/;
     if (!studnoRegex.test(studno)){
-        alert("Invalid student number");
+        alert("Invalid student number.");
         return false;
     }
 
